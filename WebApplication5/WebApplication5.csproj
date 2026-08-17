@@ -71,6 +71,8 @@
     <Content Include="login2.aspx" />
     <Content Include="login3.aspx" />
     <Content Include="login4.aspx" />
+    <Content Include="login5.aspx" />
+    <Content Include="login6.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -101,6 +103,20 @@
     </Compile>
     <Compile Include="login4.aspx.designer.cs">
       <DependentUpon>login4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login5.aspx.cs">
+      <DependentUpon>login5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login5.aspx.designer.cs">
+      <DependentUpon>login5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login6.aspx.cs">
+      <DependentUpon>login6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login6.aspx.designer.cs">
+      <DependentUpon>login6.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
