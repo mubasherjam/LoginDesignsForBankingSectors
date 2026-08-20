@@ -13,7 +13,6 @@
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
         html, body { height: 100%; }
-
         :root {
             --navy-deep: #0a1834;
             --navy-mid: #12275a;
