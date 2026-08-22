@@ -383,6 +383,7 @@ background: linear-gradient(135deg, #F0F2FF 0%, #E2E7FA 100%);
             var pwdField = document.getElementById('<%= txtPassword.ClientID %>');
             var icon = document.getElementById('togglePwdIcon');
 
+
             if (pwdField.type === 'password') {
                 pwdField.type = 'text';
                 icon.classList.remove('bi-eye');
